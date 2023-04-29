@@ -26,38 +26,46 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="#page-top">
-        <img src="assets/LOGO.png" alt="" width="75" height="75" />
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#page-top">Acasă</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Despre noi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Servicii</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Galerie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#products">Produse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="#page-top">
+            <img src="assets/mainLogo.png" alt="" width="auto" height="75" />
+        </a>   
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#page-top">Acasă</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Despre noi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Servicii</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Produse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <hr>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:0758-542-446">0758-542-446</a>
+                    <a class="nav-link" href="mailto:office@ccplast.ro">office@ccplast.ro</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
   <!-- Masthead-->
   <header class="masthead">
     <div class="container px-4 px-lg-5 h-100">
@@ -326,104 +334,29 @@
   </section>
   <!-- Contact-->
   <section class="page-section" id="contact">
-    <div class="container px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-lg-8 col-xl-6 text-center">
-          <h2 class="mt-0">Să luăm legătura!</h2>
+        <div class="col-12 mb-5">
+          <h2 class="text-center">Contact</h2>
           <hr class="divider" />
-          <p class="text-muted mb-5">
-            Ești gata să începi următorul tău proiect cu noi? Trimite-ne un
-            mesaj și te vom contacta cât mai curând posibil!!
-          </p>
         </div>
-      </div>
-      <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-        <div class="col-lg-6">
-          <!-- * * * * * * * * * * * * * * *-->
-          <!-- * * SB Forms Contact Form * *-->
-          <!-- * * * * * * * * * * * * * * *-->
-          <!-- This form is pre-integrated with SB Forms.-->
-          <!-- To make this form functional, sign up at-->
-          <!-- https://startbootstrap.com/solution/contact-forms-->
-          <!-- to get an API token!-->
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-            <!-- Name input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                data-sb-validations="required" />
-              <label for="name">Nume complet</label>
-              <div class="invalid-feedback" data-sb-feedback="name:required">
-                Este necesar un nume.
-              </div>
-            </div>
-            <!-- Email address input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                data-sb-validations="required,email" />
-              <label for="email">Adresa de email</label>
-              <div class="invalid-feedback" data-sb-feedback="email:required">
-                Este necesar un email.
-              </div>
-              <div class="invalid-feedback" data-sb-feedback="email:email">
-                Email-ul nu este valid.
-              </div>
-            </div>
-            <!-- Phone number input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                data-sb-validations="required" />
-              <label for="phone">Număr de telefon</label>
-              <div class="invalid-feedback" data-sb-feedback="phone:required">
-                Este necesar un număr de telefon.
-              </div>
-            </div>
-            <!-- Message input-->
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
-                style="height: 10rem" data-sb-validations="required"></textarea>
-              <label for="message">Mesaj</label>
-              <div class="invalid-feedback" data-sb-feedback="message:required">
-                Este necesar un mesaj.
-              </div>
-            </div>
-            <!-- Submit success message-->
-            <!---->
-            <!-- This is what your users will see when the form-->
-            <!-- has successfully submitted-->
-            <div class="d-none" id="submitSuccessMessage">
-              <div class="text-center mb-3">
-                <div class="fw-bolder">Trimiterea formularului a reușit!</div>
-              </div>
-            </div>
-            <!-- Submit error message-->
-            <!---->
-            <!-- This is what your users will see when there is-->
-            <!-- an error submitting the form-->
-            <div class="d-none" id="submitErrorMessage">
-              <div class="text-center text-danger mb-3">
-                Eroare la trimiterea mesajului!
-              </div>
-            </div>
-            <!-- Submit Button-->
-            <div class="d-grid">
-              <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">
-                Trimite
-              </button>
-            </div>
-          </form>
+        <div class="row mb-3">
+          <div class="col-md-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d532.8205273214344!2d24.352809338461043!3d44.112945561338535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ace1382a4b8ac5%3A0x6e0100d305a6a28e!2sCC%20PLAST!5e0!3m2!1sen!2sro!4v1682691531733!5m2!1sen!2sro"
+              width="100%" height="315" frameborder="0"></iframe>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d532.8205273214344!2d24.352809338461043!3d44.112945561338535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ace1382a4b8ac5%3A0x6e0100d305a6a28e!2sCC%20PLAST!5e0!3m2!1sen!2sro!4v1682691531733!5m2!1sen!2sro"
-            width="100%" height="315" frameborder="0"></iframe>
-        </div>
-      </div>
-      <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-lg-4 text-center mb-5 mb-lg-0">
           <i class="bi-phone fs-2 m-5 text-muted"></i>
           <div>(+40) 758-542-446</div>
+        </div>
+        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+          <i class="bi-envelope-fill fs-2 m-5 text-muted"></i>
+          <div>office@ccplast.ro</div>
+        </div>
+        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+          <i class="bi-geo-alt fs-2 m-5 text-muted"></i>
+          <div>Strada 1 Decembrie 1918 13, Caracal 235200</div>
         </div>
       </div>
     </div>
