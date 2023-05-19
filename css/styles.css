@@ -13072,7 +13072,7 @@ h3 {
 }
 
 p {
-  color: #575a7b;
+  color: #000;
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -13105,7 +13105,19 @@ p {
   color: #ffffff;
 }
 
+.card:hover h2 {
+  color: #ffffff;
+}
+
+.card:hover h1 {
+  color: #ffffff;
+}
+
 .card:hover p {
+  color: #f0f0f0;
+}
+
+.card:hover ul li {
   color: #f0f0f0;
 }
 
